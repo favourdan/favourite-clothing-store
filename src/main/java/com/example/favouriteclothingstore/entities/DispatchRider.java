@@ -10,7 +10,6 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @Setter
 @Getter
-@Builder
 @Entity
 @Table(name= "dispatchRider-tbl")
 public class DispatchRider extends Person{
