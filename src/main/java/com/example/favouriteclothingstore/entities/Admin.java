@@ -10,10 +10,8 @@ import javax.persistence.Table;
 @Getter
 @Builder
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
 @Table(name = "admin-tbl")
-public class Admin extends Person{
+public class Admin{
 
 
 
